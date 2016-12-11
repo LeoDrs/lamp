@@ -40,5 +40,5 @@ class lamp {
 		enable => "true",
 		provider => "systemd",
 	}
-
+}
 
