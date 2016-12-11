@@ -10,6 +10,10 @@ class lamp {
 	package {"gedit":}
 	package {"ssh":}
 
+	file {"/home/xubuntu/public_html":
+		ensure => "directory",
+	}
+	
 	file {"/var/www/html/index.html":
 		content => "Hello World!\n",
 	}
